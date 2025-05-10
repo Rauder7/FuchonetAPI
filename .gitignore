@@ -1,0 +1,65 @@
+.editorconfig
+.vs
+bin
+obj
+# Compilados binarios
+**/bin/
+**/obj/
+
+# Paquetes NuGet
+**/packages/
+*.nupkg
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code settings
+.vscode/
+
+# Visual Studio files
+.vs/
+*.vc.db
+*.pdb
+
+# Archivos temporales y de sistema
+*.tmp
+*.log
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Configuración de publicación
+Properties/PublishProfiles/
+
+# Secretos y configuraciones locales
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+
+# Rider IDE
+.idea/
+
+# Test resultados
+TestResults/
+
+# Archivos de cobertura y análisis
+coverage/
+*.coverage
+*.coveragexml
+*.lcov
+*.sonarqube/
+
+# Archivos generados por herramientas como EF Core
+Migrations/
+
+# Archivos de lock para dependencias si usas npm/yarn (en proyectos con frontend)
+package-lock.json
+yarn.lock
+
+# Archivos de backup de editores
+*.~*
