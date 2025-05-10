@@ -5,6 +5,8 @@ obj
 # Compilados binarios
 **/bin/
 **/obj/
+**/**/bin/
+**/**/obj/
 
 # Paquetes NuGet
 **/packages/
