@@ -1,7 +1,7 @@
 .editorconfig
 .vs
-bin
-obj
+bin/
+obj/
 # Compilados binarios
 **/bin/
 **/obj/

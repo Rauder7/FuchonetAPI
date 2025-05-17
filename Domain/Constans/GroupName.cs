@@ -1,10 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Domain.Constans;
-internal class GroupName
+﻿namespace Domain.Constans;
+public enum GroupName
 {
+    GRUPO01,
+    GRUPO08,
+    GRUPO15,
+    GRUPO22,
+    EXONERADO,
+    RETIRADO,
+    PAGOADELANTADO
 }

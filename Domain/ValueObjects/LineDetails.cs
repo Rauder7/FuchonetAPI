@@ -1,15 +1,15 @@
 ﻿using Domain.Constans;
 
 namespace Domain.ValueObjects;
-public class LineDetails
+public record class LineDetails
 {
-    public RouterBrand RouterBrand { get; set; }
-    public bool IsPingAllowed { get; set; }
-    public bool IsRouterAccessible { get; set; }
-    public bool IsPlexActive { get; set; }
-    public bool IsIptvActive { get; set; }
-    public bool IsIpBlokedInWinbox { get; set; }
-    public DateTime LastBloquedDateCurrentIp { get; set; }
-
-
+    public RouterBrand? RouterBrand { get; init; }
+    public bool? IsPingAllowed { get; init; }
+    public bool? IsRouterAccessible { get; init; }
+    public bool? IsPlexActive { get; init; }
+    public bool? IsIptvActive { get; init; }
+    public bool? IsIpBlokedInWinbox { get; init; }
+    public DateTime? LastBloquedDateCurrentIp { get; init; }
+    public DateTime? LastBloquedDateOldIp { get; init; }
+    public bool? IsAntenna { get; init; }
 }

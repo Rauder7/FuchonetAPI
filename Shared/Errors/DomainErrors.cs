@@ -20,5 +20,6 @@ public static class DomainErrors
         public static readonly Error InvalidHomeAddress = new("Customer.InvalidHomeAddress", "La direccion no es valida");
         public static readonly Error InvalidComment = new("Customer.InvalidComment", "El comentario no es valido");
         public static readonly Error InvalidIp = new("Customer.InvalidIp", "La ip no es valida");
+        public static readonly Error InvalidDayOfCut = new("Customer.InvalidDayOfCut", "El dia de corte no es valido, seleccionar una fecha dentro del rango");
     }
 }
